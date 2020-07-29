@@ -1,0 +1,489 @@
+*
+{
+ margin: 0;
+ padding: 0;
+
+}
+
+#main{
+	
+	
+	width: 100%;
+	height: 100vh;
+
+  
+	background-repeat: no-repeat;
+	position:center;
+	background-size: cover;
+
+}
+      .background-wrap {
+        position: relative;
+        z-index: -1000;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    
+        
+      }
+
+      #video-bg-elem {
+        position: relative;
+        top: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1000;
+        min-height: 50%;
+        min-width: 100%;
+       
+      }
+
+
+      .vdoBG{
+
+        background: rgba(15, 101, 113, 0.82);
+        height: 800px;
+        
+
+      }
+
+}
+
+
+
+
+#
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+
+
+nav{
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  line-height: 80px;
+  opacity: .9 ;
+
+}
+
+nav ul{
+  float: right;
+  margin left:40px; 
+    margin-right: 140px;
+
+}
+nav ul li{
+  list-style-type: none;
+    display: inline-block;
+    
+margin: 7px 4px;
+
+    transition: 0.8s all;
+ 
+}
+
+nav ul li:hover{
+  background-color: white ;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: sans-serif;
+  height: 3 all;
+  width: 2 all;
+    letter-spacing:0px;
+  color: white;
+  padding:4px;
+
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+
+
+
+.footer {
+  background-color: #414141;
+  width: 100%;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  margin-top: 50px;
+   top: 50px;
+
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: #fffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color:  #F0E68C;
+  text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.footer h2 {
+  color: #87CEFA;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: #DC143C;
+}
+
+.footer .name {
+  color: #DC143C;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+
+.title{
+  font-family:"Rock Salt", cursive;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.form{
+
+  font-family:"abel", sans-serif;
+  text-align:center;
+  min-width:260px;
+  color:white;
+  background-color:transparent;
+}
+
+body{
+  font-size:1.0em;
+
+  background: linear-gradient(rgba(0, 0, 0,0.75), rgba(0, 0, 0, 0.95));
+    center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+
+.text-box{
+  background-color: rgba(255,217,15,0.28);
+  border-radius: 30px;
+  margin: 2em auto;
+  padding: 25px;
+  width: 85%;
+}
+
+h1 {
+  margin: 2;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 0.1em;
+  line-height: 0.2em;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+hr {
+  width: 60%;
+  margin: 8px auto;
+}
+
+.container {
+  background-color: rgba(79, 118, 223, 0.28);
+  border-radius: 20px;
+  margin: auto;
+  width: 87.23%;
+  padding: 1em;
+}
+
+#survey-form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 5px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  vertical-align: top;
+  margin-top: 18px;
+}
+
+.input-tab {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.input-field {
+  display: inline-block;
+  width: 110%;
+  padding: 5px;
+  margin: 18px  0 10px;
+  border: 1px solid yellow;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+  font-weight: 300;
+}
+
+input {
+  margin: 7px;
+}
+
+#dropdown {
+  width: 110%;
+  padding: 5px;
+  margin: 20px 0 10px 10px;  
+  border: 1px solid yellow;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 15px;
+}
+.btn {
+  width: 100%;
+  text-align: center;
+  margin: 25px;
+}
+
+button {
+  background-color: rgba(255,217,15,0.28);
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 10px 15px;
+  border: 1px solid;
+}
+
+button:hover {
+  background-color: rgba(79, 118, 223, 0.28);
+}
+
+footer {
+  text-align: center;
+  font-size: 17px;
+  margin: 20px;
+}
+
+footer a {
+  color: #f39c12;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+footer p {
+  margin: 1.5em;
+  font-size: 0.95em;
+}
+
+@media only screen and (max-width: 768px) {
+  body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    center no-repeat fixed;
+  background-size: cover;
+}
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .input-tab {
+    width: 100%;
+    float: left;
+    margin-left: -10px;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+
